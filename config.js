@@ -40,7 +40,7 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD === undefined ? 'false' : process.env.ANTI_BAD,
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
     BAD_KICK: process.env.BAD_KICK === undefined ? 'false' : process.env.BAD_KICK,
-    INBO: process.env.INBO_BLOCK === undefined ? 'false' : process.env.INBO_BLOCK,
+    INBO: process.env.INBO_BLOCK === undefined ? 'true' : process.env.INBO_BLOCK,
     ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ? 'https://telegra.ph/file/e8f3e419b3dafe9fe8153.jpg' : process.env.ALIVE_LOGO,
     CAPTIONS: process.env.CAPTIONS === undefined ? 'Made By 👩‍🦰Amazone' : process.env.CAPTIONS,
     DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
